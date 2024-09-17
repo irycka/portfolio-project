@@ -20,7 +20,8 @@ h1 {
   color: white;
   font-family: var(--heading-font-family);
   font-weight: 700;
-  font-size: 76px;
+  font-size: 96px;
+  line-height: 1.5;
 }
 h2 {
   font-size: 60px;
@@ -69,4 +70,24 @@ p {
   line-height: 27px;
   padding: 12px 20px;
   font-weight: 400;
+}
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 50px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
 }
