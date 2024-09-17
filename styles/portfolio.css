@@ -58,7 +58,7 @@ p {
   border-radius: 4px;
   color: white;
   font-size: 18px;
-  line-height: 27px;
+  line-height: 28px;
   padding: 12px 20px;
 }
 .btn-branding-outline {
@@ -90,4 +90,11 @@ p {
   .hero {
     padding: 80px 20px;
   }
+}
+footer {
+  font-size: 22px;
+}
+footer:hover {
+  cursor: pointer;
+  color: blue;
 }
