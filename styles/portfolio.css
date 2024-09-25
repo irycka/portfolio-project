@@ -104,6 +104,10 @@ p {
   padding: 120px 60px;
 }
 
+.logo {
+  max-width: 150px;
+}
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
