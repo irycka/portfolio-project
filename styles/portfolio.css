@@ -27,7 +27,7 @@ h2 {
   font-size: 60px;
 }
 
-h4 {
+h3 {
   font-size: 48px;
 }
 
@@ -41,7 +41,7 @@ p {
 .hero {
   background: lightskyblue;
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-family: var(--heading-font-family);
@@ -60,7 +60,7 @@ p {
 }
 
 .content-container {
-  padding: 150px 20px;
+  padding: 60px 20px;
 }
 
 .content {
@@ -193,12 +193,10 @@ footer .social-links a:hover {
   h2 {
     font-size: 44px;
   }
-  h4 {
+  h3 {
     font-size: 22px;
   }
-  .hero {
-    padding: 80px 20px;
-  }
+
   .content {
     text-align: center;
     padding: 0;
